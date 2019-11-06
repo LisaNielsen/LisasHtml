@@ -1,0 +1,74 @@
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css");
+
+body {
+    background-image: url("./content/temp12.png");
+}
+
+h1,h2 {
+    background-color: blanchedalmond;
+    font-size: 3em;
+}
+
+div {
+    background-color: rgb(116, 197, 235);
+    
+}
+
+#content {
+    background-color: darkcyan;
+    border-style: solid;
+    border-color: black;
+    border-width: thick;
+}
+
+.lead {
+    background-color: darkkhaki;
+}
+
+a:visited {color: red}
+
+ul {
+    background-color: blueviolet;
+    list-style-type: none;
+    border-bottom: 3px solid black;
+
+}
+
+ul li:nth-child(2)
+{
+    background-color: cornflowerblue;
+    padding-left: 30px;
+    padding-top: 50px;
+    margin-left: 25px;
+}
+
+* {
+    padding:0.5px;
+    margin:0px;
+    font-family: sans-serif, Arial, Helvetica;
+}
+
+.navbar-brand ul:hover
+{
+    background-color: darkgrey;
+}
+
+#buttons
+{
+    margin: 100px 0 100px 0;
+}
+
+#buttons input{
+    width: 120px;
+}
+
+#buttons input:first-child{
+    position:fixed;
+    bottom: 20px;
+    right:20px;
+}
+#buttons input:last-child{
+    position:relative;
+    bottom: 20px;
+    right:50px;
+}
